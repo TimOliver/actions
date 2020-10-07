@@ -47,7 +47,7 @@ function getMacPorts(versionSpec = "2.5.4") {
         if (!toolPath) {
             // Download, install, cache
             core.debug("MacPorts not found in tool-cache");
-            let filename = "MacPorts-" + versionSpec + "-10.14-Mojave.pkg";
+            let filename = "MacPorts-" + versionSpec + "-10.15-Catalina.pkg";
             let downloadUrl = "https://distfiles.macports.org/MacPorts/" + filename;
             let downloadPath = "";
             try {
