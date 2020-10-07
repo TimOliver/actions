@@ -38,7 +38,7 @@ if (!tempDirectory) {
     }
     tempDirectory = path.join(baseLocation, "runner", "temp");
 }
-function getMacPorts(versionSpec = "2.5.4") {
+function getMacPorts(versionSpec = "2.6.3") {
     return __awaiter(this, void 0, void 0, function* () {
         // check cache
         let toolPath;
