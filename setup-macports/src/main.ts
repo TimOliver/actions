@@ -22,7 +22,7 @@ if (!tempDirectory) {
   tempDirectory = path.join(baseLocation, "runner", "temp");
 }
 
-async function getMacPorts(versionSpec: string = "2.5.4") {
+async function getMacPorts(versionSpec: string = "2.6.3") {
   // check cache
   let toolPath: String;
   toolPath = tc.find("macports", versionSpec);
